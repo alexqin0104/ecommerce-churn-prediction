@@ -56,17 +56,17 @@ End-to-end machine learning project predicting customer churn for a UK-based B2B
 ---
 
 ## 📁 Project Structure
-ecommerce-churn/
-├── app.py                          # Streamlit application
-├── 01_data_exploration.ipynb       # Full analysis notebook
-├── app_files/                      # Saved model artifacts
-│   ├── model.pkl                   # Trained Logistic Regression
-│   ├── scaler.pkl                  # StandardScaler
-│   ├── explainer.pkl               # SHAP explainer
-│   ├── feature_cols.pkl            # Feature names
-│   └── train_stats.pkl             # Training statistics
-├── requirements.txt                # Python dependencies
-└── README.md
+
+   - `app.py` — Streamlit application
+   - `01_data_exploration.ipynb` — Full analysis notebook
+   - `app_files/` — Saved model artifacts
+     - `model.pkl` — Trained Logistic Regression
+     - `scaler.pkl` — StandardScaler
+     - `explainer.pkl` — SHAP explainer
+     - `feature_cols.pkl` — Feature names
+     - `train_stats.pkl` — Training statistics
+   - `requirements.txt` — Python dependencies
+   - `README.md` — This file
 ---
 
 ## 🚀 Run Locally
@@ -108,4 +108,3 @@ Despite XGBoost's general superiority on tabular data, Logistic Regression won h
 ## 📧 Contact
 
 Built by [Your Name] — feel free to reach out for questions or collaboration.
-
